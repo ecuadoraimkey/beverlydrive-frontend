@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "Overwatch";
+    src: url("http://us.battle.net/forums/static/fonts/bignoodletoo/bignoodletoo.woff") format('woff');
+}
+
+.overwatch {
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.overwatch .__block {
+    background-color: #eee;
+    height: 26rem;
+    width: 18rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    transition: 0.2s;
+}
+
+.overwatch .__block .__image {
+  	background-size: cover;
+	height: 13rem;
+    -webkit-filter: brightness(50%);
+    -webkit-transition: .4s all;
+    &:hover {
+        -webkit-filter: brightness(100%);
+    }
+}
+
+.overwatch .__block .__content {
+	  font-family: Overwatch;
+	  font-size: 1.3rem;
+	  color: #000;
+}
+
+.overwatch .__block .__content #header {
+	  padding: 0;
+	  text-align: center;
+}
+
+.overwatch .__block .__content .__desc {
+    text-align: center;
+}
+
+.overwatch .__block:hover {
+    //   border: 1px solid #9E1028;
+
+      border-bottom: 5px solid #9E1028;
+	  height: 26.3rem;
+}
+
+#icon {
+    display: block;
+    width: 48px;
+    height: 48px;
+    padding-top: 0.5rem;
+    padding-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#software {
+    background-image: url("../assets/code.jpg");
+}
+
+#film {
+    background-image: url("../assets/film.jpg");
+}
+
+#journANALism {
+  	background-image: url("../assets/grand-finals.jpg");
+}
